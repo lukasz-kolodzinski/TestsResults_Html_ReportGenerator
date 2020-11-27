@@ -1,7 +1,7 @@
 import xlrd
 from typing import List
 
-excel_path = "./Xlsx/QAT1.7.B.3.9.0_2020-11-23.xlsx"
+excel_path = "./Xlsx/results_2020-11-23.xlsx"
 
 input_excel = xlrd.open_workbook(excel_path)
 input_excel = input_excel.sheet_by_index(2)
